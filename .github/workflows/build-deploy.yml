@@ -5,6 +5,10 @@ on:
 # Add env
 env:
   CONTAINER_REGISTRY: acrhandson0133clavamepxq2.azurecr.io
+  # Add envs
+  RESOURCE_GROUP_NAME: Handson01-CICD
+  CONTAINERAPP_NAME: ctapp-demo-ui
+  API_BASE_URL: https://ctapp-demo-ui.agreeablepond-58909ec0.japaneast.azurecontainerapps.io
 jobs:
   build:
     runs-on: ubuntu-22.04
